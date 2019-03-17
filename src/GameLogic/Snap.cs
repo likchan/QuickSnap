@@ -5,7 +5,9 @@ using SwinGameSDK;
 using NUnit.Framework;
 #endif 
 
-
+/// <summary>
+/// Snap.s
+/// </summary>
 namespace CardGames.GameLogic
 {
 	/// <summary>

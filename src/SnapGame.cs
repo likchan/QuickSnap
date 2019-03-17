@@ -1,7 +1,9 @@
 using System;
 using SwinGameSDK;
 using CardGames.GameLogic;
-
+/// <summary>
+/// Snap game.
+/// </summary>
 namespace CardGames
 {
     public class SnapGame
@@ -39,7 +41,7 @@ namespace CardGames
 				}
 				else if(SwinGame.KeyTyped(KeyCode.vk_RSHIFT))
 				{
-					myGame.PlayerHit(1);
+					myGame.PlayerHit (1);
 				}
 			}
 		}

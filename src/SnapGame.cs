@@ -11,6 +11,9 @@ namespace CardGames
 	/// </summary>
     public class SnapGame
     {
+		/// <summary>
+		/// Loads the resources.
+		/// </summary>
         public static void LoadResources()
         {
             Bitmap cards;

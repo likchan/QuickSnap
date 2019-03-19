@@ -102,6 +102,15 @@
     <WinLibraryFiles Include="lib\win\zlib1.dll" />
     <None Include="packages.config" />
     <None Include="Resources\images\cardsBoard.png" />
+    <None Include="Resources\sounds\bothsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\sounds\leftslap.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\sounds\rightslap.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
